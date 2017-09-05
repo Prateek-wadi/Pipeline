@@ -1,0 +1,549 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+# BEGIN section for OpenVPN Client SSL sites
+127.94.0.1	client.openvpn.net
+# END section for OpenVPN Client SSL sites
+
+127.0.0.1 thyssenkrupp.local thyssenkruppch.local thyssenkruppde.local thyssenkruppes.local
+#Development
+10.33.5.225 dev.admin.tkmxshop.com
+dev.materials4me.ch
+dev.materials4me.co.uk
+dev.materials4me.es
+dev.tkmxshop.com
+dev.materials4me.de
+
+
+192.168.3.41 vault.pragiti.com
+#########Host File entry For NVI##
+##### NATIONAL VISION #####
+##### DEV ENVIRONMENT #####
+# Frontend:
+10.31.35.1 ambest-sap-dev.nationalvision.com
+10.31.35.1 egw-sap-dev.nationalvision.com
+10.31.35.1 mo-sap-dev.nationalvision.com
+# Backend:
+10.31.35.1 sap-dev.nationalvision.com
+# Servers:
+10.31.35.7 nvi-d-ma-app-001
+10.31.35.8 nvi-d-ma-srch-001
+10.31.35.9 nvi-d-ma-dth-001
+##### QA ENVIRONMENT #####
+# Frontend:
+10.31.35.2 ambest-sap-qas.nationalvision.com           
+10.31.35.2 egw-sap-qas.nationalvision.com             
+10.31.35.2 mo-sap-qas.nationalvision.com
+# Backend:
+10.31.35.2 sap-qas.nationalvision.com
+# Servers:
+10.31.35.10 nvi-q-ma-app-001
+10.31.35.11 nvi-q-ma-app-002
+10.31.35.12 nvi-q-ma-srch-001
+10.31.35.13 nvi-q-ma-srch-002
+10.31.35.14 nvi-q-ma-adm-001
+10.31.35.15 nvi-q-ma-dth-001
+10.31.35.16 nvi-q-ma-dth-002
+
+BackEnd DEV
+https://sap-dev.nationalvision.com/backoffice
+https://sap-dev.nationalvision.com/hac
+FrontEnd DEV
+http://ambest-sap-dev.nationalvision.com
+http://egw-sap-dev.nationalvision.com
+http://mo-sap-dev.nationalvision.com
+BackEnd QA
+https://sap-qas.nationalvision.com/backoffice
+https://sap-qas.nationalvision.com/hac
+FrontEnd QA
+http://ambest-sap-qas.nationalvision.com
+http://egw-sap-qas.nationalvision.com
+http://mo-sap-qas.nationalvision.com
+
+Stagging Server
+10.31.35.3 ambest-sap-stg.nationalvision.com
+10.31.35.3 egw-sap-stg.nationalvision.com
+10.31.35.3 mo-sap-stg.nationalvision.com
+
+10.31.35.3 sap-stg.nationalvision.com
+
+127.0.0.1  localhost
+
+74.201.230.33 vpn1.nationalvision.com
+
+#########Host File entry For Telco##
+127.0.0.1 b2ctelco.local
+
+#########Host File entry For Mj b2b##
+10.112.6.80 usmauijimb2b.stg
+10.110.251.20 usmauijimb2b.devb2b
+10.110.251.20 demauijimb2b.devb2b
+
+#########PowerTool##
+127.0.0.1 powertools.local
+127.0.0.1 electronics.local
+
+127.0.0.1 usmauijim.local.com
+127.0.0.1 camauijim.local.com
+127.0.0.1 demauijim.local.com
+127.0.0.1 frmauijim.local.com
+127.0.0.1 ukmauijim.local.com
+127.0.0.1 rsamauijim.local.com
+127.0.0.1 aumauijim.local.com
+127.0.0.1 inmauijim.local.com
+127.0.0.1 hkmauijim.local.com
+127.0.0.1 semauijim.local.com
+127.0.0.1 spmauijim.local.com
+127.0.0.1 aemauijim.local.com
+127.0.0.1 itmauijim.local.com
+127.0.0.1 mxmauijim.local.com
+127.0.0.1 fimauijim.local.com
+127.0.0.1 usmauijimb2b.local.com
+127.0.0.1 camauijimb2b.local.com
+127.0.0.1 uszealoptics.local.com
+
+10.112.4.23 usmauijimb2b.stg
+
+127.0.0.1 usmauijimb2b.local.com
+
+127.0.0.1 localhost
+
+10.112.6.80 usmauijim.stg
+
+
+
+10.112.6.80 camauijim.stg
+
+
+
+10.112.6.80 demauijim.stg
+
+
+
+10.112.6.80 ukmauijim.stg
+
+
+
+10.112.6.80 frmauijim.stg
+
+
+
+10.112.6.80 rsamauijim.stg
+
+
+
+10.112.6.80 aumauijim.stg
+
+
+
+10.112.6.80 inmauijim.stg
+
+
+
+10.112.6.80 hkmauijim.stg
+
+
+
+10.112.6.80 semauijim.stg
+
+
+
+10.112.6.80 spmauijim.stg
+
+
+
+10.112.6.80 aemauijim.stg
+
+10.112.6.80 itmauijim.stg
+
+
+
+10.112.6.80 mxmauijim.stg
+
+10.112.6.80 iemauijim.stg
+
+
+10.112.6.80 nzmauijim.stg
+
+10.110.251.20 usmauijim.dev.com
+
+
+10.110.251.20 camauijim.dev.com
+
+
+10.110.251.20 demauijim.dev.com
+
+
+10.110.251.20 ukmauijim.dev.com
+
+
+10.110.251.20 frmauijim.dev.com
+
+
+10.110.251.20 rsamauijim.dev.com
+
+
+10.110.251.20 aumauijim.dev.com
+
+
+10.110.251.20 inmauijim.dev.com
+
+
+10.110.251.20 hkmauijim.dev.com
+
+
+10.110.251.20 semauijim.dev.com
+
+
+10.110.251.20 spmauijim.dev.com
+
+
+10.110.251.20 aemauijim.dev.com
+
+
+10.110.251.20 itmauijim.dev.com
+
+
+10.110.251.20 mxmauijim.dev.com
+
+10.110.251.20 fimauijim.dev.com
+
+10.110.251.20 uszealOptics.dev.com
+
+10.110.251.20 cazealOptics.dev.com
+
+
+103.14.126.242 usmauijim.demo
+
+
+103.14.126.242 camauijim.demo
+
+
+103.14.126.242 demauijim.demo
+
+
+103.14.126.242 ukmauijim.demo
+
+
+103.14.126.242 frmauijim.demo
+
+
+103.14.126.242 rsamauijim.demo
+
+
+103.14.126.242 aumauijim.demo
+
+
+103.14.126.242 inmauijim.demo
+
+
+103.14.126.242 hkmauijim.demo
+
+
+103.14.126.242 semauijim.demo
+
+
+103.14.126.242 spmauijim.demo
+
+
+103.14.126.242 aemauijim.demo
+
+
+103.14.126.242 itmauijim.demo
+
+
+103.14.126.242 mxmauijim.demo
+
+
+10.110.251.20 usmauijim.dev.com
+
+
+10.110.251.20 camauijim.dev.com
+
+
+10.110.251.20 demauijim.dev.com
+
+
+10.110.251.20 ukmauijim.dev.com
+
+
+10.110.251.20 frmauijim.dev.com
+
+
+10.110.251.20 rsamauijim.dev.com
+
+
+10.110.251.20 aumauijim.dev.com
+
+
+10.110.251.20 inmauijim.dev.com
+
+
+10.110.251.20 hkmauijim.dev.com
+
+
+10.110.251.20 semauijim.dev.com
+
+
+10.110.251.20 spmauijim.dev.com
+
+
+10.110.251.20 aemauijim.dev.com
+
+
+10.110.251.20 itmauijim.dev.com
+
+
+10.110.251.20 mxmauijim.dev.com
+
+10.110.251.20 fimauijim.dev.com
+
+127.0.0.1 uszealoptics.local.com
+
+10.112.6.80 cazealoptics.stg
+10.112.6.80 uszealoptics.stg
+
+10.110.251.20 camauijim.devb2c
+10.110.251.20 demauijim.devb2c
+10.110.251.20 aumauijim.devb2c
+10.110.251.20 usmauijim.devb2c
+10.110.251.20 ukmauijim.devb2c
+
+115.115.163.27 usmauijim.dev
+115.115.163.27 camauijim.dev
+115.115.163.27 demauijim.dev
+115.115.163.27 ukmauijim.dev
+115.115.163.27 frmauijim.dev
+115.115.163.27 rsamauijim.dev
+115.115.163.27 aumauijim.dev
+115.115.163.27 inmauijim.dev
+115.115.163.27 hkmauijim.dev
+115.115.163.27 semauijim.dev
+115.115.163.27 spmauijim.dev
+115.115.163.27 aemauijim.dev
+115.115.163.27 itmauijim.dev
+115.115.163.27 mxmauijim.dev
+
+#10.112.4.20  usmauijim.stg
+
+10.112.4.20 camauijim.stg
+
+10.112.4.20  demauijim.stg
+
+10.112.4.20  ukmauijim.stg
+
+10.112.4.20  frmauijim.stg
+
+10.112.4.20 rsamauijim.stg
+
+10.112.4.20 aumauijim.stg
+
+10.112.4.20 inmauijim.stg
+
+10.112.4.20 hkmauijim.stg
+
+10.112.4.20 semauijim.stg
+
+10.112.4.20 spmauijim.stg
+
+103.14.126.242 usmauijim.demo
+
+103.14.126.242 camauijim.demo
+
+103.14.126.242 demauijim.demo
+
+103.14.126.242 ukmauijim.demo
+
+103.14.126.242 frmauijim.demo
+
+103.14.126.242 rsamauijim.demo
+
+103.14.126.242 aumauijim.demo
+
+103.14.126.242 inmauijim.demo
+
+103.14.126.242 hkmauijim.demo
+
+103.14.126.242 semauijim.demo
+
+103.14.126.242 spmauijim.demo
+
+103.14.126.242 aemauijim.demo
+
+103.14.126.242 itmauijim.demo
+
+103.14.126.242 mxmauijim.demo
+
+
+
+10.110.251.20 usmauijim.dev.com
+
+10.110.251.20 camauijim.dev
+
+10.110.251.20 demauijim.dev
+
+10.110.251.20 ukmauijim.dev
+
+10.110.251.20 frmauijim.dev
+
+10.110.251.20 rsamauijim.dev
+
+10.110.251.20 aumauijim.dev
+
+10.110.251.20 inmauijim.dev
+
+10.110.251.20 hkmauijim.dev
+
+10.110.251.20 semauijim.dev
+
+10.110.251.20 spmauijim.dev
+
+10.110.251.20 aemauijim.dev
+
+10.110.251.20 itmauijim.dev
+
+10.110.251.20 mxmauijim.dev
+
+
+127.0.0.1 usmauijim.local.com
+127.0.0.1 camauijim.local.com
+127.0.0.1 demauijim.local.com
+127.0.0.1 frmauijim.local.com
+127.0.0.1 ukmauijim.local.com
+
+#10.112.3.22   pre.usmauijim.stg
+127.0.0.1 rsamauijim.local.com
+127.0.0.1 aumauijim.local.com
+127.0.0.1 inmauijim.local.com
+127.0.0.1 hkmauijim.local.com
+127.0.0.1 semauijim.local.com
+127.0.0.1 spmauijim.local.com
+127.0.0.1 aemauijim.local.com
+127.0.0.1 itmauijim.local.com
+127.0.0.1 mxmauijim.local.com
+127.0.0.1 fimauijim.local.com
+127.0.0.1 uszealoptics.local.com
+127.0.0.1 cazealoptics.local.com
+127.0.0.1 iemauijim.local.com
+127.0.0.1 nzmauijim.local.com
+
+115.115.163.26 usmauijim.qa
+
+115.115.163.26 camauijim.qa
+
+115.115.163.26 demauijim.qa
+
+115.115.163.26 ukmauijim.qa
+
+115.115.163.26 frmauijim.qa
+
+115.115.163.26 rsamauijim.qa
+
+115.115.163.26 aumauijim.qa
+
+115.115.163.26 inmauijim.qa
+
+115.115.163.26 hkmauijim.qa
+
+115.115.163.26 semauijim.qa
+
+115.115.163.26 spmauijim.qa
+
+115.115.163.26 aemauijim.qa
+
+115.115.163.26 itmauijim.qa
+
+115.115.163.26 mxmauijim.qa
+
+
+10.112.6.80 usmauijim.stg
+
+10.112.6.80 camauijim.stg
+
+10.112.6.80 demauijim.stg
+
+10.112.6.80 ukmauijim.stg
+
+10.112.6.80 frmauijim.stg
+
+10.112.6.80 rsamauijim.stg
+
+10.112.6.80 aumauijim.stg
+
+10.112.6.80 inmauijim.stg
+
+10.112.6.80 hkmauijim.stg
+
+10.112.6.80 itmauijim.stg
+
+10.112.6.80 mxmauijim.stg
+
+10.112.6.80 spmauijim.stg
+
+10.112.6.80 semauijim.stg
+
+10.112.6.80 aemauijim.stg
+
+10.112.6.80 iemauijim.stg
+10.112.6.80 nzmauijim.stg
+
+10.112.6.80 uszealoptics.stg
+10.112.6.80 cazealoptics.stg
+
+#10.112.6.20 ca.mauijim.com
+10.112.6.20 us.mauijim.com
+#10.112.6.20 nz.mauijim.com
+#10.112.6.20 ie.mauijim.com
+
+10.110.251.20 usmauijim.devb2c
+10.110.251.20 camauijim.devb2c
+10.110.251.20 ukmauijim.devb2c
+10.110.251.20 uszealOptics.devb2c
+10.110.251.20 cazealOptics.devb2c
+
+127.0.0.1 usmauijimb2b.local.com
+10.112.1.24 ustrade.mauijim.com
+
+127.0.0.1 aumauijimb2b.local.com
+127.0.0.1 demauijimb2b.local.com
+
+10.112.6.80 usmauijimb2b.stg
+
+
+127.0.0.1       nasco.localhost
+127.0.0.1       nascohealthcare.localhost
+127.0.0.1       triarco.localhost
+127.0.0.1       amepnsi.localhost
+127.0.0.1       spectrum.localhost
+
+# DEV Frontend:
+10.31.90.1  ari-d-www.ms.ycs.io
+
+#DEV Backend:
+10.31.90.1  ari-d-adm-ms.ycs.io
+
+#QA Frontend
+10.31.90.2  test-new.enasco.com
+
+# Frontend 
+10.31.90.1 dev-new.enasco.com dev-new.spectrum-nasco.ca dev-new.amep.com 
+# Backend 
+10.31.90.1 dev-new.etriarco.com
